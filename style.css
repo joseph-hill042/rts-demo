@@ -1,0 +1,15 @@
+body {
+  padding: 0 20px; }
+
+.above-below .selected-array {
+  padding-top: 10px; }
+
+.above-below .number-results {
+  margin-top: 20px; }
+
+.above-below .label {
+  padding: 10px;
+  margin: 0 5px; }
+
+.above-below input[type="text"] {
+  margin-bottom: 10px; }

@@ -1,0 +1,19 @@
+body {
+    padding: 0 20px;
+}
+
+.above-below {
+    .selected-array {
+        padding-top: 10px;
+    }
+    .number-results {
+        margin-top: 20px;
+    }
+    .label {
+        padding: 10px;
+        margin: 0 5px;
+    }
+    input[type="text"] {
+        margin-bottom: 10px;
+    }
+}
