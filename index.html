@@ -96,7 +96,7 @@
                         <p>Enter a number to rotate string by:</p>
                         <input type="text" data-bind="value: rotateNum, valueUpdate: 'afterkeydown'">
                     </div>                    
-                    <div class="btn btn-primary" data-bind="click: rotator">Rotate String</div>
+                    <div class="btn btn-primary" data-bind="click: rotator, css: {disabled: !(stringToRotate() && rotateNum())}">Rotate String</div>
                     <div class="string-results">
                         <label class="label label-success" data-bind="text: rotatedString"></label>
                     </div>
