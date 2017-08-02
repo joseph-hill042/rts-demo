@@ -38,6 +38,24 @@
                         />
                         [7, 3, 2, 7, 9]
                     </div>
+
+                    <div>
+                        <input  type="radio" 
+                                name="array" 
+                                value="[15, 11, 2, 17, 4, 8]" 
+                                data-bind="checked: selectedArray" 
+                        />
+                        [15, 11, 2, 17, 4, 8]
+                    </div>
+
+                    <div>
+                        <input  type="radio" 
+                                name="array" 
+                                value="[3, 18, 12, 6, 20, 1, 14, 5, 9]" 
+                                data-bind="checked: selectedArray" 
+                        />
+                        [3, 18, 12, 6, 20, 1, 14, 5, 9]
+                    </div>
          
                     <div>
                         <p class="selected-array">You have selected: 
@@ -63,13 +81,25 @@
             </div>
         </div>
 
-        <div class="col-xs-6 text-center">
+        <div class="col-xs-6 text-center string-rotator">
             <div class="panel panel-info">
                 <div class="panel-heading">
                     <h2>String Rotator</h2>
+                    <div class="btn btn-warning" data-bind="click: resetValues">Reset</div>
                 </div>
                 <div class="panel-body">
-                    Panel content
+                    <div>
+                        <p>Enter a string to rotate:</p>
+                        <input type="text" data-bind="value: stringToRotate, valueUpdate: 'afterkeydown'">
+                    </div>
+                    <div>
+                        <p>Enter a number to rotate string by:</p>
+                        <input type="text" data-bind="value: rotateNum, valueUpdate: 'afterkeydown'">
+                    </div>                    
+                    <div class="btn btn-primary" data-bind="click: rotator">Rotate String</div>
+                    <div class="string-results">
+                        <label class="label label-success" data-bind="text: rotatedString"></label>
+                    </div>
                 </div>
             </div>
         </div>

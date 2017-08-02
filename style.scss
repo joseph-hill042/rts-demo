@@ -1,5 +1,9 @@
 body {
     padding: 0 20px;
+
+    input[type="text"] {
+        margin-bottom: 10px;
+    }
 }
 
 .above-below {
@@ -13,7 +17,15 @@ body {
         padding: 10px;
         margin: 0 5px;
     }
-    input[type="text"] {
-        margin-bottom: 10px;
+    
+}
+
+.string-rotator {
+    .label {
+        padding: 10px;
+        font-size: 14px;
+    }
+    .string-results {
+        margin-top: 20px;
     }
 }

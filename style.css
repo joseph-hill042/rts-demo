@@ -1,5 +1,7 @@
 body {
   padding: 0 20px; }
+  body input[type="text"] {
+    margin-bottom: 10px; }
 
 .above-below .selected-array {
   padding-top: 10px; }
@@ -11,5 +13,9 @@ body {
   padding: 10px;
   margin: 0 5px; }
 
-.above-below input[type="text"] {
-  margin-bottom: 10px; }
+.string-rotator .label {
+  padding: 10px;
+  font-size: 14px; }
+
+.string-rotator .string-results {
+  margin-top: 20px; }
